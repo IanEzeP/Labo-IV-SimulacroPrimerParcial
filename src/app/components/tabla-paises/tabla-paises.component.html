@@ -1,0 +1,8 @@
+<ul class="list-group mb-3">
+    <li *ngFor="let pais of arrayPaises" class="list-group-item d-flex justify-content-between lh-sm">
+        <div>
+        <h6 class="my-0">{{ pais.name.common }}</h6>
+        </div>
+        <img class="text-muted" src="{{ pais.flags.png }}" alt="" width="190" height="130">
+    </li>
+</ul>

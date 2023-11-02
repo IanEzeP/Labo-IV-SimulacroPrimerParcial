@@ -1,0 +1,20 @@
+<table [cellPadding]="15">
+    <th>
+        ID
+    </th>
+    <th>
+        NOMBRE
+    </th>
+    <th>
+        FOTO
+    </th>
+    <tr *ngFor="let pelicula of listaPeliculas; index as id" >
+        <td> {{ id + 1 }} </td>
+        <td> {{ pelicula.nombre }} </td>
+        <td> {{ pelicula.foto }} </td> <!--Cambiar por un img y agregar la foto en una ruta...-->
+        <td>
+            <button class="btn btn-primary" (click)="seleccionarPelicula(pelicula)">SELECCIONAR</button>
+        </td>  
+    </tr>
+    
+</table>

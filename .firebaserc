@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "simulacroparcialhosting"
+  },
+  "targets": {
+    "simulacroparcialhosting": {
+      "hosting": {
+        "simulacroPrimerParcial": [
+          "simulacroparcialhosting"
+        ]
+      }
+    }
+  }
+}
